@@ -77,7 +77,7 @@ class App extends Component {
   onButtonSubmit = () => {
     this.setState({imageUrl: this.state.input});
     // console.log('State', this.state.input);
-      fetch('http://localhost:3000/imageurl', {
+      fetch('https://face-reco-backend-86.herokuapp.com/imageurl', {
           method: 'post',
           headers: {'Content-Type': 'application/json'},
           body: JSON.stringify({
@@ -89,7 +89,7 @@ class App extends Component {
         console.log('BE Response', response);
         if (response) {
           // console.log('ID', this.state.user.id);
-          fetch('http://localhost:3000/image', {
+          fetch('https://face-reco-backend-86.herokuapp.com:3000/image', {
             method: 'put',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({

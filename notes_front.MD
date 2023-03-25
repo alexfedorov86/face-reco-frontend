@@ -1,4 +1,4 @@
-CONNECTING TO GITHUB REPOSITORY
+**CONNECTING TO GITHUB REPOSITORY**
 
 1. Created new repository on GitHub
 2. Prepare local project:
@@ -9,5 +9,12 @@ CONNECTING TO GITHUB REPOSITORY
 - `git add .`
 - `git commit -m "Initial commit"`
 - `git remote add origin git@github.com:alexfedorov86/face-reco-frontend.git`
-- `git remote -v` //check
+- `git remote -v` -- check
 - `git push -u origin main`
+
+**Replace links to backend (on Heroku)**
+
+Backend link: https://face-reco-backend-86.herokuapp.com/
+
+_We leave port 3000 for now, will be explained later:_
+  _fetch('https://face-reco-backend-86.herokuapp.com:3000/image',...)_
