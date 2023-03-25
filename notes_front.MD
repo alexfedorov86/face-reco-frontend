@@ -14,15 +14,14 @@
 
 **Replace links to backend (on Heroku)**
 
-Backend link: https://face-reco-backend-86.herokuapp.com/
-
-_In one link we leave port 3000 for now, will be explained later:_
+- Backend link: https://face-reco-backend-86.herokuapp.com/
+- _In one link we leave port 3000 for now, will be explained later:_
   _fetch('https://face-reco-backend-86.herokuapp.com:3000/image',...)_
 
 
 **Update react-scripts from ver 4.x.x to 5.0.1**
-We needed downgraded version to make app work, when it was built only as frontend app.
+- We needed downgraded version to make app work, when it was built only as frontend app.
 With BE and DB we can install latest version.
-`npm install --save --save-exact react-scripts@5.0.0`
-`npm install --save --save-exact react-scripts@5.0.1`
+- `npm install --save --save-exact react-scripts@5.0.0`
+- `npm install --save --save-exact react-scripts@5.0.1`
 
