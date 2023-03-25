@@ -149,15 +149,14 @@ class App extends Component {
   }
 }
 
-export default App;
-
-
 
 // import ParticlesBg from 'particles-bg'
 // import { useCallback } from "react";
 // import Particles from "react-particles";
 // import { loadFull } from "tsparticles";
 
-        {/* <ParticlesBg 
-          type="circle" 
-          bg={true} /> */}
+/* <ParticlesBg 
+  type="circle" 
+  bg={true} /> */
+
+export default App;

@@ -16,5 +16,5 @@
 
 Backend link: https://face-reco-backend-86.herokuapp.com/
 
-_We leave port 3000 for now, will be explained later:_
+_In one link we leave port 3000 for now, will be explained later:_
   _fetch('https://face-reco-backend-86.herokuapp.com:3000/image',...)_

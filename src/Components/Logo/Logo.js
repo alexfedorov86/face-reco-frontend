@@ -20,4 +20,3 @@ const Logo = () => {
 
 export default Logo;
 
-{/* <div className='br4 shadow-2 pa3' style={{ height: '140px', backgroundColor: 'rgb(156, 165, 236)' }}></div> */}
