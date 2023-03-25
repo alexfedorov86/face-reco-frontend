@@ -2,6 +2,31 @@
   text-align: center;
 }
 
+.center {
+  display: flex;
+  justify-content: center;
+}
+
+.prtcls {
+  position: fixed;
+  z-index: -1;
+  /* bottom: 10px;
+  right: 10px;
+  border-radius: 10px;
+  background: #fff;
+  padding: 0 12px 6px 12px;
+  border: 1px solid #000; */
+}
+
+
+/* .particles {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: ;Index: -1
+} */
+
+/* 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +60,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
