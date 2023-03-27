@@ -12,11 +12,10 @@
 - `git remote -v` -- check
 - `git push -u origin main`
 
-**Replace links to backend (on Heroku)**
+**Replace links to backend**
 
 - Backend link: https://face-reco-backend-86.herokuapp.com/
-- _In one link we leave port 3000 for now, will be explained later:_
-  _fetch('https://face-reco-backend-86.herokuapp.com:3000/image',...)_
+- _fetch('https://face-reco-backend-86.herokuapp.com:3000/image',...)_ and others...  
 
 
 **Update react-scripts from ver 4.x.x to 5.0.1**
@@ -25,3 +24,17 @@ With BE and DB we can install latest version.
 - `npm install --save --save-exact react-scripts@5.0.0`
 - `npm install --save --save-exact react-scripts@5.0.1`
 
+
+**Deploy to Heroku**
+
+1. As recommended by Create-React-App we install NPM serve package.  
+- `npm install serve --s`  
+- replace in _package.json_ `"start": "react-scripts start"` -> `"start": "serve -s build"`
+
+2. Create new app on Heroku
+
+3. Deploy: 
+- `heroku login`  
+- `heroku git:remote -a face-reco-frontend-86`
+
+4. Push to github and heroku (add, commit, push)  

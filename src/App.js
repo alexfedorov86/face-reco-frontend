@@ -89,7 +89,7 @@ class App extends Component {
         console.log('BE Response', response);
         if (response) {
           // console.log('ID', this.state.user.id);
-          fetch('https://face-reco-backend-86.herokuapp.com:3000/image', {
+          fetch('https://face-reco-backend-86.herokuapp.com/image', {
             method: 'put',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
