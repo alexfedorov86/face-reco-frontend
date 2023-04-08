@@ -37,4 +37,7 @@ With BE and DB we can install latest version.
 - `heroku login`  
 - `heroku git:remote -a face-reco-frontend-86`
 
-4. Push to github and heroku (add, commit, push)  
+4. Push to github and heroku (add, commit, push & `git push heroku main`)  
+
+- `heroku open` check the app working  
+(Image to test: *https://upload.wikimedia.org/wikipedia/commons/0/00/Family_transport_in_Tehran.jpg*)
