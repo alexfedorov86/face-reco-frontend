@@ -5,7 +5,7 @@ const ImageLinkForm = ({ onInputChange, onButtonSubmit }) => {
   return (
     <div>
       <p className='f3'>
-        {`Please provide picture's URL to detect faces`}
+        {`Please provide picture's URL to detect face on it:`}
       </p>
       <div className='form center pa4 br3 shadow-1'>
         <input 
